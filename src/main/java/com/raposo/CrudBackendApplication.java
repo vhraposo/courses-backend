@@ -21,8 +21,8 @@ public class CrudBackendApplication {
 			courseRepository.deleteAll();
 			
 			Course c = new Course();
-			c.setName("Angular com Spring");
-			c.setCategory("Front-End");
+			c.setName("Teste ");
+			c.setCategory("Teste");
 
 
 			courseRepository.save(c);

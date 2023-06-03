@@ -24,6 +24,7 @@ import lombok.Data;
 @Where(clause = "status = 'Active'")
 
 
+
 public class Course {
     
     @Id
